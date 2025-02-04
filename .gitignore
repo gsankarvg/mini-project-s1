@@ -1,0 +1,57 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*.so
+*.dll
+*.dylib
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+*.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.manifest
+*.spec
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# PyCharm settings
+.idea/
+
+# Unit test and coverage reports
+htmlcov/
+.tox/
+.coverage
+*.cover
+.nosetests*
+pytest_cache/
+__coverage__/
+
+# Django/Python environment-specific files
+*.pot
+*.pyc
+*.pyo
+celerybeat-schedule
+instance/
+
+# AWS credentials and environment files
+*.pem
+.envrc
+
+# Docker
+docker-compose.override.yml
